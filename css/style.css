@@ -1,0 +1,21 @@
+body {
+    font-family: 'Inter', sans-serif;
+}
+.header, .main{
+    max-width: 1440px;
+    margin: 0 auto;
+}
+.header {
+    padding: 16px 112px;
+}
+.welcome__info, .main__experience, .main__skills, .main__work, .main__testimonials,.main__getInTouch {
+    padding: 96px 80px;
+}
+@media (max-width: 767px) {
+    .header {
+        padding: 16px;
+    }
+    .test, .main__experience, .main__skills, .main__work, .main__testimonials,.main__getInTouch {
+        padding: 32px 16px;
+    }
+}
