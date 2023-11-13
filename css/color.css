@@ -1,0 +1,21 @@
+:root {
+    --orange-light: #f7b255;
+    --orange-regular: #f6a63d;
+    --orange-medium: #f4900c;
+
+    --gray-default: #ffffff;
+    --gray-default50: #f9fafb;
+    --gray-thin: #f3f4f6;
+    --gray-ExtraLight: #e5e7eb;
+    --gray-light: #d1d5db;
+    --gray-regular: #9ca3af;
+    --gray-medium: #6b7280;
+    --gray-semibold: #4b5563;
+    --gray-bold: #374151;
+    --gray-extrabold: #1f2937;
+    --gray-black: #111827;
+    --gray-black50: #111827;
+
+    --yellow: #ffd600;
+    --error: #CC2828;
+}

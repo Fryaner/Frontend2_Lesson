@@ -1,0 +1,32 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header__navigation > img {
+    display: none;
+}
+.header__navigation ul {
+    display: flex;
+    gap: 24px;
+}
+.header__navigation li a{
+    font-size: 16px;
+    line-height: 24px;
+    color: var(--gray-semibold);
+    font-weight: 500;
+}
+@media  (max-width: 767px) {
+    .header__navigation ul
+    {
+        display: none;
+    }
+    .header__navigation img{
+        padding: 6px;
+        border-radius: 8px;
+        display: inline-block;
+        background-color: var(--orange-regular);
+    }
+
+
+}
